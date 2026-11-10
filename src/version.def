@@ -1,0 +1,24 @@
+; version.dll exports. Forwarders, so that the game's imports bind directly to the real code in kernelbase.dll
+; (Midnight Suns' anti-tamper rejected imports that start with a jump; MMS Registry's safe setup is kept). The last three
+; are thunks in version.c; GZProRegistrySync is the rundll32 entry point of the sync.
+LIBRARY version
+EXPORTS
+GetFileVersionInfoA = kernelbase.GetFileVersionInfoA
+GetFileVersionInfoExA = kernelbase.GetFileVersionInfoExA
+GetFileVersionInfoExW = kernelbase.GetFileVersionInfoExW
+GetFileVersionInfoSizeA = kernelbase.GetFileVersionInfoSizeA
+GetFileVersionInfoSizeExA = kernelbase.GetFileVersionInfoSizeExA
+GetFileVersionInfoSizeExW = kernelbase.GetFileVersionInfoSizeExW
+GetFileVersionInfoSizeW = kernelbase.GetFileVersionInfoSizeW
+GetFileVersionInfoW = kernelbase.GetFileVersionInfoW
+VerFindFileA = kernelbase.VerFindFileA
+VerFindFileW = kernelbase.VerFindFileW
+VerLanguageNameA = kernelbase.VerLanguageNameA
+VerLanguageNameW = kernelbase.VerLanguageNameW
+VerQueryValueA = kernelbase.VerQueryValueA
+VerQueryValueW = kernelbase.VerQueryValueW
+GetFileVersionInfoByHandle
+VerInstallFileA
+VerInstallFileW
+GZProRegistrySync
+GZProRegistrySyncW

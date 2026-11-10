@@ -1,0 +1,1 @@
+Installs a DLL file to allow different skin mods to work together. (Skin mods have to support GZPro-Registry in order to add a new slot for them, previous suit mods will still work but won't use a new slot until they're updated to support the GZPro-Registry)

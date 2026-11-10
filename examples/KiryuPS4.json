@@ -1,0 +1,5 @@
+{"format": 1, "id": "KiryuPS4", "title": "Kiryu (PS4 ver.)",
+ "sources": ["/Game/Characters/GZ1_Monsters/Mechagodzilla/DA_GZ1_Skin_Mechagodzilla74.DA_GZ1_Skin_Mechagodzilla74"],
+ "rules": [["DA_GZ1_Skin_Mechagodzilla74", "DA_GZ1_Skin_KiryuPS4"],
+           ["GZ1_Monsters/Mechagodzilla", "GZ1_Monsters/Kiryu"]],
+ "keep": []}
